@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">practt</string>
+
+
+    <string-array name="lis">
+
+        <item>
+            test1
+        </item>
+        <item>test2</item>
+        <item>test3</item>
+    </string-array>
+
+
+    <string-array name="spin">
+
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+
+    </string-array>
 </resources>

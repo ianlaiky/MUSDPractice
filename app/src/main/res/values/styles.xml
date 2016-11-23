@@ -8,13 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <string-array name="lis">
 
-        <item>
-            test1
-        </item>
-        <item>test2</item>
-        <item>test3</item>
-    </string-array>
 
 </resources>
