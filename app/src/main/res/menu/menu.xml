@@ -28,10 +28,4 @@
             </menu>
         </item>
     </group>
-
-
-    <item android:title="Select All">
-
-
-    </item>
-    </menu>
+</menu>
