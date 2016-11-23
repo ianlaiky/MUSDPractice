@@ -2,6 +2,7 @@ package com.example.ian.mocktestpracticelistviewcontexdt;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     ListView li;
     ArrayAdapter<CharSequence> arr;
+    Menu myMenu;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +36,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        myMenu.s//menu btn
     }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+
+        super.onCreateOptionsMenu(menu);
+        this.myMenu = menu;
+
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+    }
+
+
 }
