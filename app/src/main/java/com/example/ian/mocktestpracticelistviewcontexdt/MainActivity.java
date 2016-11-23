@@ -95,6 +95,15 @@ public class MainActivity extends AppCompatActivity {
 
             this.myMenu.setGroupVisible(R.id.testt, true);
             Toast.makeText(getApplicationContext(), menu.getTitle(), Toast.LENGTH_SHORT).show();
+        } else if (menu.getItemId() == R.id.s1) {
+            Toast.makeText(getApplicationContext(), menu.getTitle(), Toast.LENGTH_SHORT).show();
+
+        } else if (menu.getItemId() == R.id.s2) {
+            Toast.makeText(getApplicationContext(), menu.getTitle(), Toast.LENGTH_SHORT).show();
+
+
+        }else if(menu.getItemId()==R.id.quit){
+            finish();
         }
         return true;
     }

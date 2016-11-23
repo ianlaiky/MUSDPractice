@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <group
         android:id="@+id/test"
         android:enabled="true"
@@ -10,21 +11,31 @@
             android:id="@+id/t1"
             android:orderInCategory="154"
             android:title="Hide Option"
-            app:showAsAction="ifRoom" />
+            app:showAsAction="always" />
+
         <item
             android:id="@+id/t2"
             android:orderInCategory="159"
             android:title="show"
-            app:showAsAction="ifRoom" />
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/quit"
+            android:orderInCategory="160"
+            android:title="Quit"
+            app:showAsAction="always" />
     </group>
+
     <group android:id="@+id/testt">
         <item
             android:id="@+id/we"
             android:title="test">
             <menu>
                 <item
-                    android:id="@+id/testtt"
-                    android:title="tw" />
+                    android:id="@+id/s1"
+                    android:title="t1" />
+                <item
+                    android:id="@+id/s2"
+                    android:title="t2" />
             </menu>
         </item>
     </group>
